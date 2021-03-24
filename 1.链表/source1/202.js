@@ -20,4 +20,11 @@ var isHappy = function (n) {
 
 };
 
-console.log(isHappy(19))
+let count = 0
+for(let i=0; i<= 100000; i++){
+  if(isHappy(i)) {
+    count += i
+  }
+}
+
+console.log(count)  // 692159746
