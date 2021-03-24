@@ -1,3 +1,5 @@
+// 链表判环
+
 // 快慢指针
 var hasCycle = function (head) {
   if (!head || !head.next) {

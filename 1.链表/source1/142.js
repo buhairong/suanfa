@@ -1,3 +1,5 @@
+// 判断环形链表节点
+
 // hash
 var detectCycle = function (head) {
   if (head === null || head.next === null) {
